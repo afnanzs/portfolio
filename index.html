@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afnan Fareez Haiqal Bin Alias - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dynamic-background"></div>
+    <header>
+        <div class="profile-image">
+            <img src="personal.jpg" alt="Afnan Fareez Haiqal Bin Alias" class="small-profile-img">
+        </div>
+        <h1>MY PORTFOLIO</h1>
+        <h2>Afnan Fareez Haiqal Bin Alias</h2>
+    </header>
+    <footer>
+        <b>
+        <a href="#personal-details" class="btn">Personal Details</a>
+        <a href="#academic-history" class="btn">Academic History</a>
+        <a href="#work-produced" class="btn">Work Produced</a>
+        <a href="#personal-qualities" class="btn">Personal Qualities</a>
+        </b>
+    </footer>
+
+    <main>
+	<audio id="background-music" src="music.mp3" loop></audio>
+    <button id="music-control" onclick="toggleMusic()">Pause Music</button>
+        <section id="personal-details" class="page active">
+            <div class="details-card">
+                <h3>Personal Details</h3>
+                <div class="slider-container">
+                    <img src="img1.jpg" alt="Afnan Fareez Haiqal Bin Alias" class="slide">
+                    <img src="img2.jpg" alt="Image 2" class="slide">
+                    <img src="img3.jpg" alt="Image 3" class="slide">
+                </div>
+                <div class="slide-controls">
+                    <button class="prev-btn">&lt;</button>
+                    <button class="next-btn">&gt;</button>
+                </div>
+                <div class="details-list">
+                    <div><strong>Fullname :</strong> Afnan Fareez Haiqal Bin Alias</div>
+                    <div><strong>Age :</strong> 23 Years Old</div>
+                    <div><strong>Born :</strong> Sungai Petani, Kedah</div>
+                    <div><strong>Email :</strong> afnanfareezhaiqal@gmail.com</div>
+                    <div><strong>Phone Number :</strong> 0124086020</div>
+                    <div><strong>Skills:</strong> HTML, CSS, JavaScript, etc.</div>
+                    <div><strong>Interests:</strong> Football, Running, Gaming, etc.</div>
+                    <div><strong>Languages:</strong> English, Malay</div>
+                    <div><strong>Social Media:</strong><a href="https://www.instagram.com/afnanfareezx" target="_blank">Instagram</a></div>
+                </div>
+            </div>
+        </section>
+        <section id="academic-history" class="page">
+            <div class="details-card">
+                <h3>Academic History</h3>
+                <div class="academic-list">
+                    <div class="academic-item">
+                        <img src="utem.png" alt="University Logo" class="academic-logo">
+                        <div class="academic-info">
+                            <h4>Bachelor of Information Technology (Game Technology)</h4>
+                            <p><strong>Institution:</strong> Universiti Teknikal Malaysia Melaka</p>
+                            <p><strong>Graduation Year:</strong> 2025</p>
+                            <p><strong>Description:</strong> Specialized in Games Technology</p>
+                        </div>
+                    </div>
+                    <div class="academic-item">
+                        <img src="ptss.png" alt="Diploma Logo" class="academic-logo">
+                        <div class="academic-info">
+                            <h4>Diploma in Information Technology</h4>
+                            <p><strong>Institution:</strong> Politeknik Tuanku Syed Sirajuddin</p>
+                            <p><strong>Graduation Year:</strong> 2022</p>
+                            <p><strong>Description:</strong> Focused on web development and database management.</p>
+                        </div>
+                    </div>
+                    <div class="academic-item">
+                        <img src="Smkba.png" alt="School Logo" class="academic-logo">
+                        <div class="academic-info">
+                            <h4>High School</h4>
+                            <p><strong>School:</strong> Sekolah Menengah Kebangsaan Bakar Arang</p>
+                            <p><strong>Graduation Year:</strong> 2018</p>
+                            <p><strong>Course:</strong> Accounting</p>
+                        </div>
+                    </div>
+                    <div class="academic-item">
+                        <img src="skba.jpg" alt="School Logo" class="academic-logo">
+                        <div class="academic-info">
+                            <h4>Mid School</h4>
+                            <p><strong>School:</strong> Sekolah Kebangsaan Bakar Arang</p>
+                            <p><strong>Graduation Year:</strong> 2013</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<section id="work-produced" class="page">
+        <div class="details-card">
+            <b><h3>Work Produced</h3></b>
+            <div class="work-container">
+                <button class="work-btn" data-section="diploma">Diploma</button>
+                <button class="work-btn" data-section="diploma-internship">Diploma Internship</button>
+                <button class="work-btn" data-section="degree">Degree</button>
+				
+            </div>
+        </div>
+    </section>
+        <section id="diploma" class="page">
+            <div class="details-card animate">
+			            <h3>Work Produced</h3>
+            <div class="work-container">
+                <button class="work-btn" data-section="diploma">Diploma</button>
+                <button class="work-btn" data-section="diploma-internship">Diploma Internship</button>
+                <button class="work-btn" data-section="degree">Degree</button>
+            </div>
+                <h3>Diploma Final Year Project</h3>
+                <div class="project-description">
+                    <p>
+							The final year project for my diploma involved designing and developing an Arduino-based water temperature detection system. This project aimed to create a cost-effective and efficient solution for monitoring water temperature in various settings, such as aquariums, swimming pools, and industrial applications.
+                    </p>
+                    <p>
+							The system utilized an Arduino microcontroller as the core component, interfaced with a temperature sensor to measure the water temperature accurately. The sensor data was processed by the Arduino, which then displayed the temperature on an LCD screen. Additionally, the system included an alert mechanism that triggered an alarm if the water temperature exceeded or fell below predefined thresholds, ensuring timely interventions.
+                    </p>
+                    <p>
+							The project involved multiple phases, including circuit design, component selection, programming the Arduino, and testing the system in real-world conditions. The final product was a reliable and user-friendly water temperature detection system that demonstrated my skills in embedded systems, sensor integration, and practical problem-solving.
+                    </p>
+                    <img src="fypdip.jpg" alt="Arduino Water Temperature Detection System" class="project-image">
+					<img src="fypdip2.jpg" alt="Arduino Water Temperature Detection System" class="project-image">
+                </div>
+            </div>
+        </section>
+			</div>
+		</section>
+        <section id="diploma-internship" class="page">
+            <div class="details-card">
+			            <h3>Work Produced</h3>
+            <div class="work-container">
+                <button class="work-btn" data-section="diploma">Diploma</button>
+                <button class="work-btn" data-section="diploma-internship">Diploma Internship</button>
+                <button class="work-btn" data-section="degree">Degree</button>
+            </div>
+                <h3>Diploma Internship TM</h3>
+				 <div class="project-description">
+                 <p>
+                        Internship Experience at TM: Navigating the Networking World
+
+					My six-month internship at TM (Telekom Malaysia) within the Networking Department was an immersive journey into the intricate world of network management and optimization. This experience not only deepened my technical expertise but also honed my problem-solving abilities and communication skills.
+                    </p>
+                    <p>
+					Networking Infrastructure Development:
+
+				One of my primary responsibilities was assisting in the setup and configuration of networking hardware. This included working on routers, switches, and access points, where I learned the nuances of creating robust network infrastructures. Collaborating with seasoned engineers, I ensured that these networks not only performed optimally but also upheld stringent security protocols.                    </p>
+                    <p>
+
+					Monitoring and Troubleshooting:
+
+					Network monitoring became second nature as I delved into tools like Wireshark and SolarWinds. Identifying performance bottlenecks and swiftly troubleshooting network outages became routine tasks. These experiences taught me the importance of proactive monitoring and quick, effective problem resolution in maintaining seamless network operations.                    </p>
+                <img src="intern.jpg" alt="Diploma Project" class="project-image">
+				<img src="intern2.jpg" alt="Diploma Project" class="project-image">
+				</div>
+            </div>
+        </section>
+        <section id="degree" class="page">
+             <div class="details-card">
+			             <h3>Work Produced</h3>
+            <div class="work-container">
+                <button class="work-btn" data-section="diploma">Diploma</button>
+                <button class="work-btn" data-section="diploma-internship">Diploma Internship</button>
+                <button class="work-btn" data-section="degree">Degree</button>
+            </div>
+                <h3>Degree</h3>
+				 <div class="project-description">
+                 <p>
+				 Building a Bowling Booking System with C++
+
+Creating a bowling booking system using C++ was an exciting project that focused on simplifying the process of reserving bowling lanes for customers. The system included essential features such as user registration, lane availability checks, booking management, and payment processing.
+                    </p>
+                <img src="deg.png" alt="Diploma Project" class="project-image">
+				</div>
+            </div>
+        </section>
+        <section id="personal-qualities" class="page">
+            <div class="details-card">
+                <h3>Personal Qualities</h3>
+				<h3>Pingat Ketua Jabatan</h3>
+				 <div class="project-description">
+                <img src="dipdekan.jpg" alt="Diploma Project" class="project-image">
+				</div>
+				<h3>Sport</h3>
+				 <div class="project-description">
+                <img src="football.jpg" alt="Diploma Project" class="project-image">
+				<img src="kayak.jpg" alt="Diploma Project" class="project-image">
+				<img src="mancing.jpg" alt="Diploma Project" class="project-image">
+				</div>
+				<h3>Project</h3>
+				<div class="project-description">
+                <img src="fypdip.jpg" alt="Diploma Project" class="project-image">
+				<img src="deg.png" alt="Diploma Project" class="project-image">
+				</div>
+            </div>
+        </section>
+    </main>
+	
+    <script src="script.js"></script>
+</body>
+</html>
